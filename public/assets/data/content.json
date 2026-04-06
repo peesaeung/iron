@@ -1,0 +1,7 @@
+{
+  "features": [
+    "Generate PDFs from HTML in C++",
+    "Combine, split, modify PDFs",
+    "Extract text & images"
+  ]
+}

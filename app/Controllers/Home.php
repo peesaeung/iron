@@ -4,8 +4,11 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index(): string
+    public function index()
     {
-        return view('welcome_message');
+        $json = file_get_contents(ROOTPATH . 'public/assets/data/content.json');
+        $data['content'] = json_decode($json, true);
+
+        return view('home', $data);
     }
 }
