@@ -4,18 +4,20 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-dark bg-transparent position-absolute w-100">
   <div class="container d-flex justify-content-between">
-    <span class="logo text-white"># IRON SOFTWARE</span>
+    <img src="/assets/img/LOGO.png" alt="logo" class="navlogo">
     <div>
-      <a href="#" class="text-white">Products</a>
-      <a href="#" class="text-white">About</a>
-      <a href="#" class="text-white">Career</a>
+      <a href="#" class="text-white">PRODUCTS</a>
+      <a href="#" class="text-white">ABOUT US</a>
+      <a href="#" class="text-white">CAREER</a>
     </div>
   </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
+  
   <div class="container hero-content">
+    <img src="/assets/img/LOGO.svg" alt="logo" class="logo">
     <div class="row align-items-center">
       <div class="col-lg-7">
         <p class="small-text text-white">Building on the success of IronPDF for .NET</p>
@@ -24,7 +26,7 @@
         <p class="coming">Coming soon</p>
       </div>
       <div class="col-lg-5 text-center">
-        <img src="/assets/img/cpp.png" alt="C++ Logo" class="hero-img">
+        <img src="/assets/img/IMAGE.png" alt="C++ Logo" class="hero-img">
       </div>
     </div>
   </div>
@@ -51,7 +53,10 @@
 <!-- FEATURES -->
 <section class="features text-center">
   <div class="container">
-    <h2 class="text-white">IronPDF for C++</h2>
+    <div class="header">
+      <h2 class="text-white">IronPDF for C++</h2>
+      <img src="/assets/img/badge.png" alt="coming soon" class="timebadge">
+    </div>
     <div class="row mt-4">
       <div class="col-md-4 text-white">Generate PDFs from HTML in C++</div>
       <div class="col-md-4 text-white">Combine, split, modify PDFs quickly in C++</div>
@@ -76,8 +81,7 @@
 <!-- WHY -->
 <section class="why">
   <div class="container d-flex align-items-center">
-    <img src="/assets/img/html.png" alt="HTML">
-    <img src="/assets/img/pdf.png" alt="PDF">
+    <img src="/assets/img/Group79.png" alt="HTMLtoPDF">
     <div>
       <h2 class="text-white">Why make a C++ PDF Library</h2>
       <p class="text-white">C++ is one of the most popular, oldest, and important programming languages in use, being the language of choice in low-level systems and network programming and other domainns where perfomance is critical.</p>
@@ -99,19 +103,19 @@
       <div class="col-md-4">
         <div class="card-pill">
           <p class="status--released"># Released</p>
-          <p class="product">IRONPDF<br>for Java</p>
+          <p class="product"><b>IRON</b>PDF<br>for Java</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card-pill">
           <p class="status"># Coming Soon</p>
-          <p class="product">IRONPDF<br>for Python</p>
+          <p class="product"><b>IRON</b>PDF<br>for Python</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card-pill">
           <p class="status"># Coming Soon</p>
-          <p class="product">IRONPDF<br>for Node.JS</p>
+          <p class="product"><b>IRON</b>PDF<br>for Node.JS</p>
         </div>
       </div>
     </div>

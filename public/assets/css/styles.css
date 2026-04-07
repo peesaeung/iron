@@ -11,7 +11,7 @@
   --text-primary: #ffffff;
   --text-secondary: #cbb3cc;
 
-  --accent: #ff2c6d;
+  --accent: #E01A59;
   --pill: #3a0a40;
 }
 
@@ -32,8 +32,11 @@ p {
 }
 .hero {
   background: var(--bg-hero);
-  padding: 140px 0 120px;
+  padding: 140px 0 80px;
   position: relative;
+  .logo {
+    padding-bottom: 20px;
+  }
 }
 
 .navbar {
@@ -43,6 +46,12 @@ p {
     .logo {
       margin-right: 30px;
     }
+  }
+  img {
+    margin-right: 30px;
+  }
+  a {
+    margin-right: 10px;
   }
 }
 
@@ -62,7 +71,7 @@ p {
 }
 
 .hero-img {
-  max-width: 260px;
+  max-width:480px;
 }
 .signup-strip {
   background: var(--bg-strip);
@@ -109,10 +118,15 @@ button:hover {
   background: var(--bg-feature);
   padding: 64px 0;
   text-align: center;
-}
-
-.features h2 {
-  margin-bottom: 32px;
+  h2 {
+    margin-bottom: 32px;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .features .row div {
@@ -137,7 +151,7 @@ button:hover {
 }
 
 .why img {
-  width: 80px;
+  width: 320px;
 }
 .card-pill {
   background: var(--pill);
